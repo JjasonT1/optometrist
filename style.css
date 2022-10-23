@@ -19,5 +19,12 @@ h1{
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #0abdb4;
+    text-decoration: none;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
