@@ -19,7 +19,6 @@ h1{
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #0abdb4;
-    text-decoration: none;
 }
 
 #logo{
@@ -27,4 +26,33 @@ h1{
     justify-content: center;
     align-items: center;
 }
+
+#logo > a{
+    text-decoration: none;
+}
+
+/* Navigation bar */
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #0abdb4;
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+/* Main hero image */
 
