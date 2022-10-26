@@ -18,13 +18,14 @@ h1{
     font-family: 'Trispace', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #0abdb4;
+    color: #003b36;
 }
 
 #logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 #logo > a{
@@ -35,7 +36,8 @@ h1{
 nav {
     width: 90%;
     margin: 10px auto;
-    text-align: right;
+    text-align: center;
+    margin-top: 20px;
   }
   
   nav ul li {
@@ -44,15 +46,31 @@ nav {
   
   nav ul li a {
     text-decoration: none;
-    color: #0abdb4;
     font-size: 20px;
     margin: 0px 10px;
     letter-spacing: 1px;
+    color:#000;
   }
   
   nav ul li a:hover {
     text-decoration: underline;
+    color: #0abdb4;
+  }
+
+  .active{
+    color: #0abdb4;
   }
 
 /* Main hero image */
+#hero-outer{
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
 
+#hero-image{
+  height: 800px;
+  width: 100%;
+  background: url('./images/pexels-dominika-roseclay-2095953.jpg') no-repeat center;
+}
