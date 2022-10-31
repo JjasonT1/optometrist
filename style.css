@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
@@ -120,6 +124,10 @@ header a:hover{
   font-size: 16px;
 }
 
+.button-1 a:hover{
+  color:#fc0b0b;
+}
+
 /* Boxes */
 #boxes{
   margin-top:20px;
@@ -154,4 +162,79 @@ footer{
 
 footer p{
   font-size: 18px;
+}
+
+
+/* eyeglasses html (CSS) */
+.glasses-section {
+  width: 100vw;
+}
+
+.glasses-section h3{
+  font-size: 32px;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.row-one,
+.row-two,
+.row-three {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-item {
+  width: 30%;
+  height: 310px;
+  margin: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item:hover {
+  opacity: 0.8;
+  border: solid 1px #01515c;
+}
+
+#glasses-one {
+  background-image: url(./images/Glasses1.png);
+}
+
+#glasses-two {
+  background-image: url(./images/Glasses2.png);
+}
+
+#glasses-three {
+  background-image: url(./images/Glasses3.png);
+}
+
+#glasses-four {
+  background-image: url(./images/Glasses4.png);
+}
+
+#glasses-five {
+  background-image: url(./images/Glasses5.png);
+}
+
+#glasses-six {
+  background-image: url(./images/Glasses6.png);
+}
+
+#glasses-seven {
+  background-image: url(./images/Glasses7.png);
+}
+
+#glasses-eight {
+  background-image: url(./images/Glasses8.png);
+}
+
+#glasses-nine {
+  background-image: url(./images/Glasses9.png);
 }
