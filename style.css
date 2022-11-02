@@ -205,36 +205,83 @@ footer p{
 
 #glasses-one {
   background-image: url(./images/Glasses1.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-two {
   background-image: url(./images/Glasses2.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-three {
   background-image: url(./images/Glasses3.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-four {
   background-image: url(./images/Glasses4.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-five {
   background-image: url(./images/Glasses5.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-six {
   background-image: url(./images/Glasses6.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-seven {
   background-image: url(./images/Glasses7.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-eight {
   background-image: url(./images/Glasses8.png);
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 #glasses-nine {
   background-image: url(./images/Glasses9.png);
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/* appointment html (CSS) */
+.form-bg{
+  padding:15px;
+  background:#5c5c5c;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Main-col */
+article #main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+aside#sidebar .appt input, aside#sidebar .appt textarea{
+  width:90%;
+  padding:5px;
 }
