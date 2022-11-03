@@ -75,7 +75,7 @@ header a:hover{
 /* Main text */
 #main-text{
   min-height:700px;
-  background:url('/images/hero-image.jpg') no-repeat 0;
+  background:url('./images/hero-image.jpg') no-repeat 0;
   text-align:center;
 }
 
@@ -295,7 +295,9 @@ ul#services li{
   #appointment form,
   #boxes .box,
   article#main-col,
-  #form-bottom{
+  #form-bottom,
+  .glasses-section
+  .grid-item{
     float:none;
     text-align:center;
     width:100%;
@@ -309,7 +311,7 @@ ul#services li{
     margin-top:40px;
   }
 
-  #appointment button, .appt button{
+  #appointment button, .appt button, .row-one, .row-two, .row-three{
     display:block;
     width:100%;
   }
